@@ -1,0 +1,484 @@
+2015-02-13T19:10:19.860-0500 o.a.s.z.ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2015-02-13T19:10:19.866-0500 o.a.s.z.ZooKeeper [INFO] Client environment:host.name=parth-VirtualBox
+2015-02-13T19:10:19.866-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.version=1.7.0_76
+2015-02-13T19:10:19.866-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2015-02-13T19:10:19.866-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.home=/usr/lib/jvm/java-7-oracle/jre
+2015-02-13T19:10:19.866-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.class.path=/home/parth/git/apache-storm-0.9.3/lib/core.incubator-0.1.0.jar:/home/parth/git/apache-storm-0.9.3/lib/compojure-1.1.3.jar:/home/parth/git/apache-storm-0.9.3/lib/asm-4.0.jar:/home/parth/git/apache-storm-0.9.3/lib/jetty-util-6.1.26.jar:/home/parth/git/apache-storm-0.9.3/lib/log4j-over-slf4j-1.6.6.jar:/home/parth/git/apache-storm-0.9.3/lib/logback-core-1.0.13.jar:/home/parth/git/apache-storm-0.9.3/lib/logback-classic-1.0.13.jar:/home/parth/git/apache-storm-0.9.3/lib/reflectasm-1.07-shaded.jar:/home/parth/git/apache-storm-0.9.3/lib/clj-stacktrace-0.2.2.jar:/home/parth/git/apache-storm-0.9.3/lib/clj-time-0.4.1.jar:/home/parth/git/apache-storm-0.9.3/lib/jline-2.11.jar:/home/parth/git/apache-storm-0.9.3/lib/carbonite-1.4.0.jar:/home/parth/git/apache-storm-0.9.3/lib/objenesis-1.2.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-logging-1.1.3.jar:/home/parth/git/apache-storm-0.9.3/lib/json-simple-1.1.jar:/home/parth/git/apache-storm-0.9.3/lib/clout-1.0.1.jar:/home/parth/git/apache-storm-0.9.3/lib/disruptor-2.10.1.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.macro-0.1.0.jar:/home/parth/git/apache-storm-0.9.3/lib/storm-core-0.9.3.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-fileupload-1.2.1.jar:/home/parth/git/apache-storm-0.9.3/lib/joda-time-2.0.jar:/home/parth/git/apache-storm-0.9.3/lib/snakeyaml-1.11.jar:/home/parth/git/apache-storm-0.9.3/lib/slf4j-api-1.7.5.jar:/home/parth/git/apache-storm-0.9.3/lib/clojure-1.5.1.jar:/home/parth/git/apache-storm-0.9.3/lib/kryo-2.21.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-lang-2.5.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-jetty-adapter-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.cli-0.2.4.jar:/home/parth/git/apache-storm-0.9.3/lib/jgrapht-core-0.9.0.jar:/home/parth/git/apache-storm-0.9.3/lib/minlog-1.2.jar:/home/parth/git/apache-storm-0.9.3/lib/chill-java-0.3.5.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.logging-0.2.3.jar:/home/parth/git/apache-storm-0.9.3/lib/servlet-api-2.5.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-core-1.1.5.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-codec-1.6.jar:/home/parth/git/apache-storm-0.9.3/lib/jetty-6.1.26.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-io-2.4.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-exec-1.1.jar:/home/parth/git/apache-storm-0.9.3/lib/math.numeric-tower-0.0.1.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-devel-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-servlet-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/hiccup-0.3.6.jar:/home/parth/git/apache-storm-0.9.3/conf:storm-local/supervisor/stormdist/wc_trident-1-1423872467/stormjar.jar
+2015-02-13T19:10:19.866-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.library.path=storm-local/supervisor/stormdist/wc_trident-1-1423872467/resources/Linux-amd64:storm-local/supervisor/stormdist/wc_trident-1-1423872467/resources:/usr/local/lib:/opt/local/lib:/usr/lib
+2015-02-13T19:10:19.867-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.io.tmpdir=/tmp
+2015-02-13T19:10:19.867-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2015-02-13T19:10:19.867-0500 o.a.s.z.ZooKeeper [INFO] Client environment:os.name=Linux
+2015-02-13T19:10:19.867-0500 o.a.s.z.ZooKeeper [INFO] Client environment:os.arch=amd64
+2015-02-13T19:10:19.867-0500 o.a.s.z.ZooKeeper [INFO] Client environment:os.version=3.13.0-45-generic
+2015-02-13T19:10:19.867-0500 o.a.s.z.ZooKeeper [INFO] Client environment:user.name=parth
+2015-02-13T19:10:19.867-0500 o.a.s.z.ZooKeeper [INFO] Client environment:user.home=/home/parth
+2015-02-13T19:10:19.873-0500 o.a.s.z.ZooKeeper [INFO] Client environment:user.dir=/home/parth/git/apache-storm-0.9.3/examples/storm-starter
+2015-02-13T19:10:19.905-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2015-02-13T19:10:19.905-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:host.name=parth-VirtualBox
+2015-02-13T19:10:19.905-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.version=1.7.0_76
+2015-02-13T19:10:19.905-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.vendor=Oracle Corporation
+2015-02-13T19:10:19.905-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.home=/usr/lib/jvm/java-7-oracle/jre
+2015-02-13T19:10:19.905-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.class.path=/home/parth/git/apache-storm-0.9.3/lib/core.incubator-0.1.0.jar:/home/parth/git/apache-storm-0.9.3/lib/compojure-1.1.3.jar:/home/parth/git/apache-storm-0.9.3/lib/asm-4.0.jar:/home/parth/git/apache-storm-0.9.3/lib/jetty-util-6.1.26.jar:/home/parth/git/apache-storm-0.9.3/lib/log4j-over-slf4j-1.6.6.jar:/home/parth/git/apache-storm-0.9.3/lib/logback-core-1.0.13.jar:/home/parth/git/apache-storm-0.9.3/lib/logback-classic-1.0.13.jar:/home/parth/git/apache-storm-0.9.3/lib/reflectasm-1.07-shaded.jar:/home/parth/git/apache-storm-0.9.3/lib/clj-stacktrace-0.2.2.jar:/home/parth/git/apache-storm-0.9.3/lib/clj-time-0.4.1.jar:/home/parth/git/apache-storm-0.9.3/lib/jline-2.11.jar:/home/parth/git/apache-storm-0.9.3/lib/carbonite-1.4.0.jar:/home/parth/git/apache-storm-0.9.3/lib/objenesis-1.2.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-logging-1.1.3.jar:/home/parth/git/apache-storm-0.9.3/lib/json-simple-1.1.jar:/home/parth/git/apache-storm-0.9.3/lib/clout-1.0.1.jar:/home/parth/git/apache-storm-0.9.3/lib/disruptor-2.10.1.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.macro-0.1.0.jar:/home/parth/git/apache-storm-0.9.3/lib/storm-core-0.9.3.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-fileupload-1.2.1.jar:/home/parth/git/apache-storm-0.9.3/lib/joda-time-2.0.jar:/home/parth/git/apache-storm-0.9.3/lib/snakeyaml-1.11.jar:/home/parth/git/apache-storm-0.9.3/lib/slf4j-api-1.7.5.jar:/home/parth/git/apache-storm-0.9.3/lib/clojure-1.5.1.jar:/home/parth/git/apache-storm-0.9.3/lib/kryo-2.21.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-lang-2.5.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-jetty-adapter-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.cli-0.2.4.jar:/home/parth/git/apache-storm-0.9.3/lib/jgrapht-core-0.9.0.jar:/home/parth/git/apache-storm-0.9.3/lib/minlog-1.2.jar:/home/parth/git/apache-storm-0.9.3/lib/chill-java-0.3.5.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.logging-0.2.3.jar:/home/parth/git/apache-storm-0.9.3/lib/servlet-api-2.5.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-core-1.1.5.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-codec-1.6.jar:/home/parth/git/apache-storm-0.9.3/lib/jetty-6.1.26.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-io-2.4.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-exec-1.1.jar:/home/parth/git/apache-storm-0.9.3/lib/math.numeric-tower-0.0.1.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-devel-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-servlet-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/hiccup-0.3.6.jar:/home/parth/git/apache-storm-0.9.3/conf:storm-local/supervisor/stormdist/wc_trident-1-1423872467/stormjar.jar
+2015-02-13T19:10:19.905-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.library.path=storm-local/supervisor/stormdist/wc_trident-1-1423872467/resources/Linux-amd64:storm-local/supervisor/stormdist/wc_trident-1-1423872467/resources:/usr/local/lib:/opt/local/lib:/usr/lib
+2015-02-13T19:10:19.905-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.io.tmpdir=/tmp
+2015-02-13T19:10:19.905-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.compiler=<NA>
+2015-02-13T19:10:19.905-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:os.name=Linux
+2015-02-13T19:10:19.905-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:os.arch=amd64
+2015-02-13T19:10:19.905-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:os.version=3.13.0-45-generic
+2015-02-13T19:10:19.906-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:user.name=parth
+2015-02-13T19:10:19.906-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:user.home=/home/parth
+2015-02-13T19:10:19.906-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:user.dir=/home/parth/git/apache-storm-0.9.3/examples/storm-starter
+2015-02-13T19:10:20.689-0500 b.s.d.worker [INFO] Launching worker for wc_trident-1-1423872467 on ab5a55f5-d5d0-4796-bed7-e5e3d1599629:6700 with id 2ac45d59-6f2b-4f96-9076-3c340b68b025 and conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 5000, "topology.skip.missing.kryo.registrations" false, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 500, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "storm-local", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 4, "nimbus.host" "localhost", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2181, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" [6700 6701 6702 6703], "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "distributed", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+2015-02-13T19:10:20.704-0500 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2015-02-13T19:10:20.911-0500 o.a.s.c.f.i.CuratorFrameworkImpl [INFO] Starting
+2015-02-13T19:10:20.917-0500 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@11b7de87
+2015-02-13T19:10:21.007-0500 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-13T19:10:21.033-0500 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-13T19:10:21.056-0500 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b856766200015, negotiated timeout = 20000
+2015-02-13T19:10:21.063-0500 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: CONNECTED
+2015-02-13T19:10:21.091-0500 b.s.zookeeper [INFO] Zookeeper state update: :connected:none
+2015-02-13T19:10:22.122-0500 o.a.s.z.ClientCnxn [INFO] EventThread shut down
+2015-02-13T19:10:22.122-0500 o.a.s.z.ZooKeeper [INFO] Session: 0x14b856766200015 closed
+2015-02-13T19:10:22.124-0500 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2015-02-13T19:10:22.134-0500 o.a.s.c.f.i.CuratorFrameworkImpl [INFO] Starting
+2015-02-13T19:10:22.134-0500 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@3c646cd6
+2015-02-13T19:10:22.140-0500 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-13T19:10:22.141-0500 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-13T19:10:22.150-0500 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b856766200016, negotiated timeout = 20000
+2015-02-13T19:10:22.150-0500 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: CONNECTED
+2015-02-13T19:10:22.425-0500 b.s.d.worker [INFO] Reading Assignments.
+2015-02-13T19:10:22.550-0500 b.s.m.TransportFactory [INFO] Storm peer transport plugin:backtype.storm.messaging.netty.Context
+2015-02-13T19:10:23.018-0500 o.a.s.c.r.ExponentialBackoffRetry [WARN] maxRetries too large (300). Pinning to 29
+2015-02-13T19:10:23.018-0500 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [100] the maxSleepTimeMs [1000] the maxRetries [300]
+2015-02-13T19:10:23.018-0500 b.s.m.n.Client [INFO] New Netty Client, connect to parth-VirtualBox, 6702, config: , buffer_size: 5242880
+2015-02-13T19:10:23.030-0500 b.s.m.n.Client [INFO] Reconnect started for Netty-Client-parth-VirtualBox/127.0.1.1:6702... [0]
+2015-02-13T19:10:23.031-0500 o.a.s.c.r.ExponentialBackoffRetry [WARN] maxRetries too large (300). Pinning to 29
+2015-02-13T19:10:23.031-0500 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [100] the maxSleepTimeMs [1000] the maxRetries [300]
+2015-02-13T19:10:23.031-0500 b.s.m.n.Client [INFO] New Netty Client, connect to parth-VirtualBox, 6701, config: , buffer_size: 5242880
+2015-02-13T19:10:23.040-0500 b.s.m.n.Client [INFO] Reconnect started for Netty-Client-parth-VirtualBox/127.0.1.1:6701... [0]
+2015-02-13T19:10:23.128-0500 b.s.m.n.Client [INFO] connection established to a remote host Netty-Client-parth-VirtualBox/127.0.1.1:6701, [id: 0x7fccef45, /127.0.0.1:59305 => parth-VirtualBox/127.0.1.1:6701]
+2015-02-13T19:10:23.130-0500 b.s.m.n.Client [INFO] connection established to a remote host Netty-Client-parth-VirtualBox/127.0.1.1:6702, [id: 0x3a44b764, /127.0.0.1:55589 => parth-VirtualBox/127.0.1.1:6702]
+2015-02-13T19:10:24.017-0500 b.s.d.executor [INFO] Loading executor __acker:[4 4]
+2015-02-13T19:10:24.061-0500 b.s.d.executor [INFO] Loaded executor tasks __acker:[4 4]
+2015-02-13T19:10:24.105-0500 b.s.d.executor [INFO] Timeouts disabled for executor __acker:[4 4]
+2015-02-13T19:10:24.110-0500 b.s.d.executor [INFO] Finished loading executor __acker:[4 4]
+2015-02-13T19:10:24.251-0500 b.s.d.executor [INFO] Loading executor b-1:[7 7]
+2015-02-13T19:10:24.255-0500 b.s.d.executor [INFO] Preparing bolt __acker:(4)
+2015-02-13T19:10:24.312-0500 b.s.d.executor [INFO] Prepared bolt __acker:(4)
+2015-02-13T19:10:24.734-0500 b.s.d.executor [INFO] Loaded executor tasks b-1:[7 7]
+2015-02-13T19:10:24.742-0500 b.s.d.executor [INFO] Finished loading executor b-1:[7 7]
+2015-02-13T19:10:24.753-0500 b.s.d.executor [INFO] Preparing bolt b-1:(7)
+2015-02-13T19:10:24.819-0500 b.s.d.executor [INFO] Loading executor b-4:[10 10]
+2015-02-13T19:10:24.937-0500 b.s.d.executor [INFO] Prepared bolt b-1:(7)
+2015-02-13T19:10:24.941-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[10 10]
+2015-02-13T19:10:24.951-0500 b.s.d.executor [INFO] Finished loading executor b-4:[10 10]
+2015-02-13T19:10:24.962-0500 b.s.d.executor [INFO] Preparing bolt b-4:(10)
+2015-02-13T19:10:24.985-0500 b.s.d.executor [INFO] Loading executor b-4:[13 13]
+2015-02-13T19:10:25.019-0500 b.s.d.executor [INFO] Prepared bolt b-4:(10)
+2015-02-13T19:10:25.044-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[13 13]
+2015-02-13T19:10:25.048-0500 b.s.d.executor [INFO] Finished loading executor b-4:[13 13]
+2015-02-13T19:10:25.070-0500 b.s.d.executor [INFO] Preparing bolt b-4:(13)
+2015-02-13T19:10:25.071-0500 b.s.d.executor [INFO] Prepared bolt b-4:(13)
+2015-02-13T19:10:25.084-0500 b.s.d.executor [INFO] Loading executor b-4:[16 16]
+2015-02-13T19:10:25.102-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[16 16]
+2015-02-13T19:10:25.104-0500 b.s.d.executor [INFO] Finished loading executor b-4:[16 16]
+2015-02-13T19:10:25.121-0500 b.s.d.executor [INFO] Preparing bolt b-4:(16)
+2015-02-13T19:10:25.125-0500 b.s.d.executor [INFO] Prepared bolt b-4:(16)
+2015-02-13T19:10:25.125-0500 b.s.d.executor [INFO] Loading executor b-4:[19 19]
+2015-02-13T19:10:25.135-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[19 19]
+2015-02-13T19:10:25.138-0500 b.s.d.executor [INFO] Finished loading executor b-4:[19 19]
+2015-02-13T19:10:25.153-0500 b.s.d.executor [INFO] Preparing bolt b-4:(19)
+2015-02-13T19:10:25.157-0500 b.s.d.executor [INFO] Prepared bolt b-4:(19)
+2015-02-13T19:10:25.158-0500 b.s.d.executor [INFO] Loading executor b-4:[22 22]
+2015-02-13T19:10:25.178-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[22 22]
+2015-02-13T19:10:25.180-0500 b.s.d.executor [INFO] Finished loading executor b-4:[22 22]
+2015-02-13T19:10:25.190-0500 b.s.d.executor [INFO] Preparing bolt b-4:(22)
+2015-02-13T19:10:25.192-0500 b.s.d.executor [INFO] Prepared bolt b-4:(22)
+2015-02-13T19:10:25.205-0500 b.s.d.executor [INFO] Loading executor b-4:[25 25]
+2015-02-13T19:10:25.233-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[25 25]
+2015-02-13T19:10:25.241-0500 b.s.d.executor [INFO] Finished loading executor b-4:[25 25]
+2015-02-13T19:10:25.257-0500 b.s.d.executor [INFO] Preparing bolt b-4:(25)
+2015-02-13T19:10:25.270-0500 b.s.d.executor [INFO] Prepared bolt b-4:(25)
+2015-02-13T19:10:25.283-0500 b.s.d.executor [INFO] Loading executor spout1:[28 28]
+2015-02-13T19:10:25.288-0500 b.s.d.executor [INFO] Loaded executor tasks spout1:[28 28]
+2015-02-13T19:10:25.337-0500 b.s.d.executor [INFO] Finished loading executor spout1:[28 28]
+2015-02-13T19:10:25.347-0500 b.s.d.executor [INFO] Opening spout spout1:(28)
+2015-02-13T19:10:25.382-0500 b.s.d.executor [INFO] Loading executor __system:[-1 -1]
+2015-02-13T19:10:25.392-0500 b.s.d.executor [INFO] Loaded executor tasks __system:[-1 -1]
+2015-02-13T19:10:25.436-0500 b.s.util [ERROR] Async loop died!
+java.lang.RuntimeException: No DRPC servers configured for topology
+	at backtype.storm.drpc.DRPCSpout.open(DRPCSpout.java:79) ~[storm-core-0.9.3.jar:0.9.3]
+	at storm.trident.spout.RichSpoutBatchTriggerer.open(RichSpoutBatchTriggerer.java:58) ~[storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.daemon.executor$fn__3373$fn__3388.invoke(executor.clj:522) ~[storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.util$async_loop$fn__464.invoke(util.clj:461) ~[storm-core-0.9.3.jar:0.9.3]
+	at clojure.lang.AFn.run(AFn.java:24) [clojure-1.5.1.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_76]
+2015-02-13T19:10:25.437-0500 b.s.d.executor [INFO] Finished loading executor __system:[-1 -1]
+2015-02-13T19:10:25.446-0500 b.s.d.executor [INFO] Preparing bolt __system:(-1)
+2015-02-13T19:10:25.469-0500 b.s.d.executor [ERROR] 
+java.lang.RuntimeException: No DRPC servers configured for topology
+	at backtype.storm.drpc.DRPCSpout.open(DRPCSpout.java:79) ~[storm-core-0.9.3.jar:0.9.3]
+	at storm.trident.spout.RichSpoutBatchTriggerer.open(RichSpoutBatchTriggerer.java:58) ~[storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.daemon.executor$fn__3373$fn__3388.invoke(executor.clj:522) ~[storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.util$async_loop$fn__464.invoke(util.clj:461) ~[storm-core-0.9.3.jar:0.9.3]
+	at clojure.lang.AFn.run(AFn.java:24) [clojure-1.5.1.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_76]
+2015-02-13T19:10:25.499-0500 b.s.d.executor [INFO] Loading executor $mastercoord-bg0:[1 1]
+2015-02-13T19:10:25.529-0500 b.s.d.executor [INFO] Prepared bolt __system:(-1)
+2015-02-13T19:10:25.582-0500 b.s.d.executor [INFO] Loaded executor tasks $mastercoord-bg0:[1 1]
+2015-02-13T19:10:25.597-0500 b.s.util [ERROR] Halting process: ("Worker died")
+java.lang.RuntimeException: ("Worker died")
+	at backtype.storm.util$exit_process_BANG_.doInvoke(util.clj:325) [storm-core-0.9.3.jar:0.9.3]
+	at clojure.lang.RestFn.invoke(RestFn.java:423) [clojure-1.5.1.jar:na]
+	at backtype.storm.daemon.worker$fn__3812$fn__3813.invoke(worker.clj:456) [storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.daemon.executor$mk_executor_data$fn__3274$fn__3275.invoke(executor.clj:240) [storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.util$async_loop$fn__464.invoke(util.clj:473) [storm-core-0.9.3.jar:0.9.3]
+	at clojure.lang.AFn.run(AFn.java:24) [clojure-1.5.1.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_76]
+2015-02-13T19:10:25.599-0500 b.s.d.executor [INFO] Finished loading executor $mastercoord-bg0:[1 1]
+2015-02-13T19:10:25.600-0500 b.s.d.worker [INFO] Launching receive-thread for ab5a55f5-d5d0-4796-bed7-e5e3d1599629:6700
+2015-02-13T19:10:25.604-0500 b.s.d.executor [INFO] Opening spout $mastercoord-bg0:(1)
+2015-02-13T19:11:02.448-0500 o.a.s.z.ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2015-02-13T19:11:02.456-0500 o.a.s.z.ZooKeeper [INFO] Client environment:host.name=parth-VirtualBox
+2015-02-13T19:11:02.456-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.version=1.7.0_76
+2015-02-13T19:11:02.456-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2015-02-13T19:11:02.456-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.home=/usr/lib/jvm/java-7-oracle/jre
+2015-02-13T19:11:02.457-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.class.path=/home/parth/git/apache-storm-0.9.3/lib/core.incubator-0.1.0.jar:/home/parth/git/apache-storm-0.9.3/lib/compojure-1.1.3.jar:/home/parth/git/apache-storm-0.9.3/lib/asm-4.0.jar:/home/parth/git/apache-storm-0.9.3/lib/jetty-util-6.1.26.jar:/home/parth/git/apache-storm-0.9.3/lib/log4j-over-slf4j-1.6.6.jar:/home/parth/git/apache-storm-0.9.3/lib/logback-core-1.0.13.jar:/home/parth/git/apache-storm-0.9.3/lib/logback-classic-1.0.13.jar:/home/parth/git/apache-storm-0.9.3/lib/reflectasm-1.07-shaded.jar:/home/parth/git/apache-storm-0.9.3/lib/clj-stacktrace-0.2.2.jar:/home/parth/git/apache-storm-0.9.3/lib/clj-time-0.4.1.jar:/home/parth/git/apache-storm-0.9.3/lib/jline-2.11.jar:/home/parth/git/apache-storm-0.9.3/lib/carbonite-1.4.0.jar:/home/parth/git/apache-storm-0.9.3/lib/objenesis-1.2.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-logging-1.1.3.jar:/home/parth/git/apache-storm-0.9.3/lib/json-simple-1.1.jar:/home/parth/git/apache-storm-0.9.3/lib/clout-1.0.1.jar:/home/parth/git/apache-storm-0.9.3/lib/disruptor-2.10.1.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.macro-0.1.0.jar:/home/parth/git/apache-storm-0.9.3/lib/storm-core-0.9.3.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-fileupload-1.2.1.jar:/home/parth/git/apache-storm-0.9.3/lib/joda-time-2.0.jar:/home/parth/git/apache-storm-0.9.3/lib/snakeyaml-1.11.jar:/home/parth/git/apache-storm-0.9.3/lib/slf4j-api-1.7.5.jar:/home/parth/git/apache-storm-0.9.3/lib/clojure-1.5.1.jar:/home/parth/git/apache-storm-0.9.3/lib/kryo-2.21.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-lang-2.5.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-jetty-adapter-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.cli-0.2.4.jar:/home/parth/git/apache-storm-0.9.3/lib/jgrapht-core-0.9.0.jar:/home/parth/git/apache-storm-0.9.3/lib/minlog-1.2.jar:/home/parth/git/apache-storm-0.9.3/lib/chill-java-0.3.5.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.logging-0.2.3.jar:/home/parth/git/apache-storm-0.9.3/lib/servlet-api-2.5.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-core-1.1.5.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-codec-1.6.jar:/home/parth/git/apache-storm-0.9.3/lib/jetty-6.1.26.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-io-2.4.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-exec-1.1.jar:/home/parth/git/apache-storm-0.9.3/lib/math.numeric-tower-0.0.1.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-devel-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-servlet-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/hiccup-0.3.6.jar:/home/parth/git/apache-storm-0.9.3/conf:storm-local/supervisor/stormdist/wc_trident-1-1423872467/stormjar.jar
+2015-02-13T19:11:02.457-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.library.path=storm-local/supervisor/stormdist/wc_trident-1-1423872467/resources/Linux-amd64:storm-local/supervisor/stormdist/wc_trident-1-1423872467/resources:/usr/local/lib:/opt/local/lib:/usr/lib
+2015-02-13T19:11:02.457-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.io.tmpdir=/tmp
+2015-02-13T19:11:02.457-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2015-02-13T19:11:02.457-0500 o.a.s.z.ZooKeeper [INFO] Client environment:os.name=Linux
+2015-02-13T19:11:02.457-0500 o.a.s.z.ZooKeeper [INFO] Client environment:os.arch=amd64
+2015-02-13T19:11:02.461-0500 o.a.s.z.ZooKeeper [INFO] Client environment:os.version=3.13.0-45-generic
+2015-02-13T19:11:02.461-0500 o.a.s.z.ZooKeeper [INFO] Client environment:user.name=parth
+2015-02-13T19:11:02.461-0500 o.a.s.z.ZooKeeper [INFO] Client environment:user.home=/home/parth
+2015-02-13T19:11:02.461-0500 o.a.s.z.ZooKeeper [INFO] Client environment:user.dir=/home/parth/git/apache-storm-0.9.3/examples/storm-starter
+2015-02-13T19:11:02.487-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2015-02-13T19:11:02.487-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:host.name=parth-VirtualBox
+2015-02-13T19:11:02.488-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.version=1.7.0_76
+2015-02-13T19:11:02.488-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.vendor=Oracle Corporation
+2015-02-13T19:11:02.488-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.home=/usr/lib/jvm/java-7-oracle/jre
+2015-02-13T19:11:02.489-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.class.path=/home/parth/git/apache-storm-0.9.3/lib/core.incubator-0.1.0.jar:/home/parth/git/apache-storm-0.9.3/lib/compojure-1.1.3.jar:/home/parth/git/apache-storm-0.9.3/lib/asm-4.0.jar:/home/parth/git/apache-storm-0.9.3/lib/jetty-util-6.1.26.jar:/home/parth/git/apache-storm-0.9.3/lib/log4j-over-slf4j-1.6.6.jar:/home/parth/git/apache-storm-0.9.3/lib/logback-core-1.0.13.jar:/home/parth/git/apache-storm-0.9.3/lib/logback-classic-1.0.13.jar:/home/parth/git/apache-storm-0.9.3/lib/reflectasm-1.07-shaded.jar:/home/parth/git/apache-storm-0.9.3/lib/clj-stacktrace-0.2.2.jar:/home/parth/git/apache-storm-0.9.3/lib/clj-time-0.4.1.jar:/home/parth/git/apache-storm-0.9.3/lib/jline-2.11.jar:/home/parth/git/apache-storm-0.9.3/lib/carbonite-1.4.0.jar:/home/parth/git/apache-storm-0.9.3/lib/objenesis-1.2.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-logging-1.1.3.jar:/home/parth/git/apache-storm-0.9.3/lib/json-simple-1.1.jar:/home/parth/git/apache-storm-0.9.3/lib/clout-1.0.1.jar:/home/parth/git/apache-storm-0.9.3/lib/disruptor-2.10.1.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.macro-0.1.0.jar:/home/parth/git/apache-storm-0.9.3/lib/storm-core-0.9.3.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-fileupload-1.2.1.jar:/home/parth/git/apache-storm-0.9.3/lib/joda-time-2.0.jar:/home/parth/git/apache-storm-0.9.3/lib/snakeyaml-1.11.jar:/home/parth/git/apache-storm-0.9.3/lib/slf4j-api-1.7.5.jar:/home/parth/git/apache-storm-0.9.3/lib/clojure-1.5.1.jar:/home/parth/git/apache-storm-0.9.3/lib/kryo-2.21.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-lang-2.5.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-jetty-adapter-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.cli-0.2.4.jar:/home/parth/git/apache-storm-0.9.3/lib/jgrapht-core-0.9.0.jar:/home/parth/git/apache-storm-0.9.3/lib/minlog-1.2.jar:/home/parth/git/apache-storm-0.9.3/lib/chill-java-0.3.5.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.logging-0.2.3.jar:/home/parth/git/apache-storm-0.9.3/lib/servlet-api-2.5.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-core-1.1.5.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-codec-1.6.jar:/home/parth/git/apache-storm-0.9.3/lib/jetty-6.1.26.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-io-2.4.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-exec-1.1.jar:/home/parth/git/apache-storm-0.9.3/lib/math.numeric-tower-0.0.1.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-devel-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-servlet-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/hiccup-0.3.6.jar:/home/parth/git/apache-storm-0.9.3/conf:storm-local/supervisor/stormdist/wc_trident-1-1423872467/stormjar.jar
+2015-02-13T19:11:02.489-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.library.path=storm-local/supervisor/stormdist/wc_trident-1-1423872467/resources/Linux-amd64:storm-local/supervisor/stormdist/wc_trident-1-1423872467/resources:/usr/local/lib:/opt/local/lib:/usr/lib
+2015-02-13T19:11:02.489-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.io.tmpdir=/tmp
+2015-02-13T19:11:02.489-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.compiler=<NA>
+2015-02-13T19:11:02.489-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:os.name=Linux
+2015-02-13T19:11:02.489-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:os.arch=amd64
+2015-02-13T19:11:02.493-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:os.version=3.13.0-45-generic
+2015-02-13T19:11:02.493-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:user.name=parth
+2015-02-13T19:11:02.493-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:user.home=/home/parth
+2015-02-13T19:11:02.493-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:user.dir=/home/parth/git/apache-storm-0.9.3/examples/storm-starter
+2015-02-13T19:11:03.220-0500 b.s.d.worker [INFO] Launching worker for wc_trident-1-1423872467 on ab5a55f5-d5d0-4796-bed7-e5e3d1599629:6700 with id a3109c8c-5377-4efb-a98c-ca74fbe7b6bf and conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 5000, "topology.skip.missing.kryo.registrations" false, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 500, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "storm-local", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 4, "nimbus.host" "localhost", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2181, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" [6700 6701 6702 6703], "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "distributed", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+2015-02-13T19:11:03.234-0500 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2015-02-13T19:11:03.355-0500 o.a.s.c.f.i.CuratorFrameworkImpl [INFO] Starting
+2015-02-13T19:11:03.359-0500 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@6546662d
+2015-02-13T19:11:03.387-0500 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-13T19:11:03.401-0500 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-13T19:11:03.410-0500 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b856766200017, negotiated timeout = 20000
+2015-02-13T19:11:03.413-0500 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: CONNECTED
+2015-02-13T19:11:03.417-0500 b.s.zookeeper [INFO] Zookeeper state update: :connected:none
+2015-02-13T19:11:04.441-0500 o.a.s.z.ClientCnxn [INFO] EventThread shut down
+2015-02-13T19:11:04.441-0500 o.a.s.z.ZooKeeper [INFO] Session: 0x14b856766200017 closed
+2015-02-13T19:11:04.443-0500 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2015-02-13T19:11:04.444-0500 o.a.s.c.f.i.CuratorFrameworkImpl [INFO] Starting
+2015-02-13T19:11:04.447-0500 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@6deff818
+2015-02-13T19:11:04.453-0500 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-13T19:11:04.454-0500 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-13T19:11:04.457-0500 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b856766200018, negotiated timeout = 20000
+2015-02-13T19:11:04.458-0500 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: CONNECTED
+2015-02-13T19:11:04.564-0500 b.s.d.worker [INFO] Reading Assignments.
+2015-02-13T19:11:04.687-0500 b.s.m.TransportFactory [INFO] Storm peer transport plugin:backtype.storm.messaging.netty.Context
+2015-02-13T19:11:04.983-0500 o.a.s.c.r.ExponentialBackoffRetry [WARN] maxRetries too large (300). Pinning to 29
+2015-02-13T19:11:04.984-0500 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [100] the maxSleepTimeMs [1000] the maxRetries [300]
+2015-02-13T19:11:04.984-0500 b.s.m.n.Client [INFO] New Netty Client, connect to parth-VirtualBox, 6702, config: , buffer_size: 5242880
+2015-02-13T19:11:05.051-0500 b.s.m.n.Client [INFO] Reconnect started for Netty-Client-parth-VirtualBox/127.0.1.1:6702... [0]
+2015-02-13T19:11:05.057-0500 o.a.s.c.r.ExponentialBackoffRetry [WARN] maxRetries too large (300). Pinning to 29
+2015-02-13T19:11:05.058-0500 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [100] the maxSleepTimeMs [1000] the maxRetries [300]
+2015-02-13T19:11:05.058-0500 b.s.m.n.Client [INFO] New Netty Client, connect to parth-VirtualBox, 6701, config: , buffer_size: 5242880
+2015-02-13T19:11:05.060-0500 b.s.m.n.Client [INFO] Reconnect started for Netty-Client-parth-VirtualBox/127.0.1.1:6701... [0]
+2015-02-13T19:11:05.170-0500 b.s.m.n.Client [INFO] connection established to a remote host Netty-Client-parth-VirtualBox/127.0.1.1:6701, [id: 0x89b6b139, /127.0.0.1:59576 => parth-VirtualBox/127.0.1.1:6701]
+2015-02-13T19:11:05.175-0500 b.s.m.n.Client [INFO] connection established to a remote host Netty-Client-parth-VirtualBox/127.0.1.1:6702, [id: 0xb5a05dae, /127.0.0.1:55862 => parth-VirtualBox/127.0.1.1:6702]
+2015-02-13T19:11:05.833-0500 b.s.d.executor [INFO] Loading executor __acker:[4 4]
+2015-02-13T19:11:05.843-0500 b.s.d.executor [INFO] Loaded executor tasks __acker:[4 4]
+2015-02-13T19:11:05.890-0500 b.s.d.executor [INFO] Timeouts disabled for executor __acker:[4 4]
+2015-02-13T19:11:05.890-0500 b.s.d.executor [INFO] Finished loading executor __acker:[4 4]
+2015-02-13T19:11:05.934-0500 b.s.d.executor [INFO] Loading executor b-1:[7 7]
+2015-02-13T19:11:05.946-0500 b.s.d.executor [INFO] Preparing bolt __acker:(4)
+2015-02-13T19:11:05.967-0500 b.s.d.executor [INFO] Prepared bolt __acker:(4)
+2015-02-13T19:11:06.103-0500 b.s.d.executor [INFO] Loaded executor tasks b-1:[7 7]
+2015-02-13T19:11:06.106-0500 b.s.d.executor [INFO] Finished loading executor b-1:[7 7]
+2015-02-13T19:11:06.115-0500 b.s.d.executor [INFO] Preparing bolt b-1:(7)
+2015-02-13T19:11:06.125-0500 b.s.d.executor [INFO] Loading executor b-4:[10 10]
+2015-02-13T19:11:06.164-0500 b.s.d.executor [INFO] Prepared bolt b-1:(7)
+2015-02-13T19:11:06.166-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[10 10]
+2015-02-13T19:11:06.169-0500 b.s.d.executor [INFO] Finished loading executor b-4:[10 10]
+2015-02-13T19:11:06.177-0500 b.s.d.executor [INFO] Preparing bolt b-4:(10)
+2015-02-13T19:11:06.186-0500 b.s.d.executor [INFO] Loading executor b-4:[13 13]
+2015-02-13T19:11:06.196-0500 b.s.d.executor [INFO] Prepared bolt b-4:(10)
+2015-02-13T19:11:06.211-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[13 13]
+2015-02-13T19:11:06.214-0500 b.s.d.executor [INFO] Finished loading executor b-4:[13 13]
+2015-02-13T19:11:06.225-0500 b.s.d.executor [INFO] Preparing bolt b-4:(13)
+2015-02-13T19:11:06.229-0500 b.s.d.executor [INFO] Prepared bolt b-4:(13)
+2015-02-13T19:11:06.231-0500 b.s.d.executor [INFO] Loading executor b-4:[16 16]
+2015-02-13T19:11:06.255-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[16 16]
+2015-02-13T19:11:06.259-0500 b.s.d.executor [INFO] Finished loading executor b-4:[16 16]
+2015-02-13T19:11:06.269-0500 b.s.d.executor [INFO] Preparing bolt b-4:(16)
+2015-02-13T19:11:06.274-0500 b.s.d.executor [INFO] Loading executor b-4:[19 19]
+2015-02-13T19:11:06.275-0500 b.s.d.executor [INFO] Prepared bolt b-4:(16)
+2015-02-13T19:11:06.287-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[19 19]
+2015-02-13T19:11:06.300-0500 b.s.d.executor [INFO] Finished loading executor b-4:[19 19]
+2015-02-13T19:11:06.308-0500 b.s.d.executor [INFO] Preparing bolt b-4:(19)
+2015-02-13T19:11:06.314-0500 b.s.d.executor [INFO] Prepared bolt b-4:(19)
+2015-02-13T19:11:06.316-0500 b.s.d.executor [INFO] Loading executor b-4:[22 22]
+2015-02-13T19:11:06.332-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[22 22]
+2015-02-13T19:11:06.335-0500 b.s.d.executor [INFO] Finished loading executor b-4:[22 22]
+2015-02-13T19:11:06.343-0500 b.s.d.executor [INFO] Preparing bolt b-4:(22)
+2015-02-13T19:11:06.347-0500 b.s.d.executor [INFO] Prepared bolt b-4:(22)
+2015-02-13T19:11:06.347-0500 b.s.d.executor [INFO] Loading executor b-4:[25 25]
+2015-02-13T19:11:06.366-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[25 25]
+2015-02-13T19:11:06.379-0500 b.s.d.executor [INFO] Finished loading executor b-4:[25 25]
+2015-02-13T19:11:06.389-0500 b.s.d.executor [INFO] Preparing bolt b-4:(25)
+2015-02-13T19:11:06.392-0500 b.s.d.executor [INFO] Prepared bolt b-4:(25)
+2015-02-13T19:11:06.397-0500 b.s.d.executor [INFO] Loading executor spout1:[28 28]
+2015-02-13T19:11:06.400-0500 b.s.d.executor [INFO] Loaded executor tasks spout1:[28 28]
+2015-02-13T19:11:06.419-0500 b.s.d.executor [INFO] Finished loading executor spout1:[28 28]
+2015-02-13T19:11:06.428-0500 b.s.d.executor [INFO] Loading executor __system:[-1 -1]
+2015-02-13T19:11:06.429-0500 b.s.d.executor [INFO] Loaded executor tasks __system:[-1 -1]
+2015-02-13T19:11:06.430-0500 b.s.d.executor [INFO] Opening spout spout1:(28)
+2015-02-13T19:11:06.445-0500 b.s.d.executor [INFO] Finished loading executor __system:[-1 -1]
+2015-02-13T19:11:06.456-0500 b.s.d.executor [INFO] Preparing bolt __system:(-1)
+2015-02-13T19:11:06.467-0500 b.s.d.executor [INFO] Loading executor $mastercoord-bg0:[1 1]
+2015-02-13T19:11:06.473-0500 b.s.util [ERROR] Async loop died!
+java.lang.RuntimeException: No DRPC servers configured for topology
+	at backtype.storm.drpc.DRPCSpout.open(DRPCSpout.java:79) ~[storm-core-0.9.3.jar:0.9.3]
+	at storm.trident.spout.RichSpoutBatchTriggerer.open(RichSpoutBatchTriggerer.java:58) ~[storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.daemon.executor$fn__3373$fn__3388.invoke(executor.clj:522) ~[storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.util$async_loop$fn__464.invoke(util.clj:461) ~[storm-core-0.9.3.jar:0.9.3]
+	at clojure.lang.AFn.run(AFn.java:24) [clojure-1.5.1.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_76]
+2015-02-13T19:11:06.474-0500 b.s.d.executor [ERROR] 
+java.lang.RuntimeException: No DRPC servers configured for topology
+	at backtype.storm.drpc.DRPCSpout.open(DRPCSpout.java:79) ~[storm-core-0.9.3.jar:0.9.3]
+	at storm.trident.spout.RichSpoutBatchTriggerer.open(RichSpoutBatchTriggerer.java:58) ~[storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.daemon.executor$fn__3373$fn__3388.invoke(executor.clj:522) ~[storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.util$async_loop$fn__464.invoke(util.clj:461) ~[storm-core-0.9.3.jar:0.9.3]
+	at clojure.lang.AFn.run(AFn.java:24) [clojure-1.5.1.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_76]
+2015-02-13T19:11:06.482-0500 b.s.d.executor [INFO] Prepared bolt __system:(-1)
+2015-02-13T19:11:06.500-0500 b.s.d.executor [INFO] Loaded executor tasks $mastercoord-bg0:[1 1]
+2015-02-13T19:11:06.506-0500 b.s.d.executor [INFO] Finished loading executor $mastercoord-bg0:[1 1]
+2015-02-13T19:11:06.515-0500 b.s.d.worker [INFO] Launching receive-thread for ab5a55f5-d5d0-4796-bed7-e5e3d1599629:6700
+2015-02-13T19:11:06.516-0500 b.s.d.executor [INFO] Opening spout $mastercoord-bg0:(1)
+2015-02-13T19:11:06.523-0500 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2015-02-13T19:11:06.527-0500 o.a.s.c.f.i.CuratorFrameworkImpl [INFO] Starting
+2015-02-13T19:11:06.533-0500 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@61900eda
+2015-02-13T19:11:06.537-0500 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-13T19:11:06.539-0500 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-13T19:11:06.558-0500 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b856766200019, negotiated timeout = 20000
+2015-02-13T19:11:06.559-0500 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: CONNECTED
+2015-02-13T19:11:06.580-0500 o.a.s.z.ZooKeeper [INFO] Session: 0x14b856766200019 closed
+2015-02-13T19:11:06.580-0500 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2015-02-13T19:11:06.580-0500 o.a.s.c.f.i.CuratorFrameworkImpl [INFO] Starting
+2015-02-13T19:11:06.580-0500 o.a.s.z.ClientCnxn [INFO] EventThread shut down
+2015-02-13T19:11:06.584-0500 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181/transactional/spout1/coordinator sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@4adf1d27
+2015-02-13T19:11:06.587-0500 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-13T19:11:06.588-0500 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-13T19:11:06.592-0500 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b85676620001a, negotiated timeout = 20000
+2015-02-13T19:11:06.593-0500 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: CONNECTED
+2015-02-13T19:11:06.604-0500 b.s.util [ERROR] Halting process: ("Worker died")
+java.lang.RuntimeException: ("Worker died")
+	at backtype.storm.util$exit_process_BANG_.doInvoke(util.clj:325) [storm-core-0.9.3.jar:0.9.3]
+	at clojure.lang.RestFn.invoke(RestFn.java:423) [clojure-1.5.1.jar:na]
+	at backtype.storm.daemon.worker$fn__3812$fn__3813.invoke(worker.clj:456) [storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.daemon.executor$mk_executor_data$fn__3274$fn__3275.invoke(executor.clj:240) [storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.util$async_loop$fn__464.invoke(util.clj:473) [storm-core-0.9.3.jar:0.9.3]
+	at clojure.lang.AFn.run(AFn.java:24) [clojure-1.5.1.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_76]
+2015-02-13T19:11:06.607-0500 b.s.m.n.Server [INFO] Create Netty Server Netty-server-localhost-6700, buffer_size: 5242880, maxWorkers: 1
+2015-02-13T19:11:43.805-0500 o.a.s.z.ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2015-02-13T19:11:43.817-0500 o.a.s.z.ZooKeeper [INFO] Client environment:host.name=parth-VirtualBox
+2015-02-13T19:11:43.817-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.version=1.7.0_76
+2015-02-13T19:11:43.817-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2015-02-13T19:11:43.817-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.home=/usr/lib/jvm/java-7-oracle/jre
+2015-02-13T19:11:43.817-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.class.path=/home/parth/git/apache-storm-0.9.3/lib/core.incubator-0.1.0.jar:/home/parth/git/apache-storm-0.9.3/lib/compojure-1.1.3.jar:/home/parth/git/apache-storm-0.9.3/lib/asm-4.0.jar:/home/parth/git/apache-storm-0.9.3/lib/jetty-util-6.1.26.jar:/home/parth/git/apache-storm-0.9.3/lib/log4j-over-slf4j-1.6.6.jar:/home/parth/git/apache-storm-0.9.3/lib/logback-core-1.0.13.jar:/home/parth/git/apache-storm-0.9.3/lib/logback-classic-1.0.13.jar:/home/parth/git/apache-storm-0.9.3/lib/reflectasm-1.07-shaded.jar:/home/parth/git/apache-storm-0.9.3/lib/clj-stacktrace-0.2.2.jar:/home/parth/git/apache-storm-0.9.3/lib/clj-time-0.4.1.jar:/home/parth/git/apache-storm-0.9.3/lib/jline-2.11.jar:/home/parth/git/apache-storm-0.9.3/lib/carbonite-1.4.0.jar:/home/parth/git/apache-storm-0.9.3/lib/objenesis-1.2.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-logging-1.1.3.jar:/home/parth/git/apache-storm-0.9.3/lib/json-simple-1.1.jar:/home/parth/git/apache-storm-0.9.3/lib/clout-1.0.1.jar:/home/parth/git/apache-storm-0.9.3/lib/disruptor-2.10.1.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.macro-0.1.0.jar:/home/parth/git/apache-storm-0.9.3/lib/storm-core-0.9.3.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-fileupload-1.2.1.jar:/home/parth/git/apache-storm-0.9.3/lib/joda-time-2.0.jar:/home/parth/git/apache-storm-0.9.3/lib/snakeyaml-1.11.jar:/home/parth/git/apache-storm-0.9.3/lib/slf4j-api-1.7.5.jar:/home/parth/git/apache-storm-0.9.3/lib/clojure-1.5.1.jar:/home/parth/git/apache-storm-0.9.3/lib/kryo-2.21.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-lang-2.5.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-jetty-adapter-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.cli-0.2.4.jar:/home/parth/git/apache-storm-0.9.3/lib/jgrapht-core-0.9.0.jar:/home/parth/git/apache-storm-0.9.3/lib/minlog-1.2.jar:/home/parth/git/apache-storm-0.9.3/lib/chill-java-0.3.5.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.logging-0.2.3.jar:/home/parth/git/apache-storm-0.9.3/lib/servlet-api-2.5.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-core-1.1.5.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-codec-1.6.jar:/home/parth/git/apache-storm-0.9.3/lib/jetty-6.1.26.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-io-2.4.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-exec-1.1.jar:/home/parth/git/apache-storm-0.9.3/lib/math.numeric-tower-0.0.1.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-devel-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-servlet-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/hiccup-0.3.6.jar:/home/parth/git/apache-storm-0.9.3/conf:storm-local/supervisor/stormdist/wc_trident-1-1423872467/stormjar.jar
+2015-02-13T19:11:43.818-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.library.path=storm-local/supervisor/stormdist/wc_trident-1-1423872467/resources/Linux-amd64:storm-local/supervisor/stormdist/wc_trident-1-1423872467/resources:/usr/local/lib:/opt/local/lib:/usr/lib
+2015-02-13T19:11:43.818-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.io.tmpdir=/tmp
+2015-02-13T19:11:43.818-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2015-02-13T19:11:43.818-0500 o.a.s.z.ZooKeeper [INFO] Client environment:os.name=Linux
+2015-02-13T19:11:43.818-0500 o.a.s.z.ZooKeeper [INFO] Client environment:os.arch=amd64
+2015-02-13T19:11:43.818-0500 o.a.s.z.ZooKeeper [INFO] Client environment:os.version=3.13.0-45-generic
+2015-02-13T19:11:43.818-0500 o.a.s.z.ZooKeeper [INFO] Client environment:user.name=parth
+2015-02-13T19:11:43.818-0500 o.a.s.z.ZooKeeper [INFO] Client environment:user.home=/home/parth
+2015-02-13T19:11:43.818-0500 o.a.s.z.ZooKeeper [INFO] Client environment:user.dir=/home/parth/git/apache-storm-0.9.3/examples/storm-starter
+2015-02-13T19:11:43.840-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2015-02-13T19:11:43.841-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:host.name=parth-VirtualBox
+2015-02-13T19:11:43.841-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.version=1.7.0_76
+2015-02-13T19:11:43.841-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.vendor=Oracle Corporation
+2015-02-13T19:11:43.849-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.home=/usr/lib/jvm/java-7-oracle/jre
+2015-02-13T19:11:43.849-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.class.path=/home/parth/git/apache-storm-0.9.3/lib/core.incubator-0.1.0.jar:/home/parth/git/apache-storm-0.9.3/lib/compojure-1.1.3.jar:/home/parth/git/apache-storm-0.9.3/lib/asm-4.0.jar:/home/parth/git/apache-storm-0.9.3/lib/jetty-util-6.1.26.jar:/home/parth/git/apache-storm-0.9.3/lib/log4j-over-slf4j-1.6.6.jar:/home/parth/git/apache-storm-0.9.3/lib/logback-core-1.0.13.jar:/home/parth/git/apache-storm-0.9.3/lib/logback-classic-1.0.13.jar:/home/parth/git/apache-storm-0.9.3/lib/reflectasm-1.07-shaded.jar:/home/parth/git/apache-storm-0.9.3/lib/clj-stacktrace-0.2.2.jar:/home/parth/git/apache-storm-0.9.3/lib/clj-time-0.4.1.jar:/home/parth/git/apache-storm-0.9.3/lib/jline-2.11.jar:/home/parth/git/apache-storm-0.9.3/lib/carbonite-1.4.0.jar:/home/parth/git/apache-storm-0.9.3/lib/objenesis-1.2.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-logging-1.1.3.jar:/home/parth/git/apache-storm-0.9.3/lib/json-simple-1.1.jar:/home/parth/git/apache-storm-0.9.3/lib/clout-1.0.1.jar:/home/parth/git/apache-storm-0.9.3/lib/disruptor-2.10.1.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.macro-0.1.0.jar:/home/parth/git/apache-storm-0.9.3/lib/storm-core-0.9.3.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-fileupload-1.2.1.jar:/home/parth/git/apache-storm-0.9.3/lib/joda-time-2.0.jar:/home/parth/git/apache-storm-0.9.3/lib/snakeyaml-1.11.jar:/home/parth/git/apache-storm-0.9.3/lib/slf4j-api-1.7.5.jar:/home/parth/git/apache-storm-0.9.3/lib/clojure-1.5.1.jar:/home/parth/git/apache-storm-0.9.3/lib/kryo-2.21.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-lang-2.5.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-jetty-adapter-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.cli-0.2.4.jar:/home/parth/git/apache-storm-0.9.3/lib/jgrapht-core-0.9.0.jar:/home/parth/git/apache-storm-0.9.3/lib/minlog-1.2.jar:/home/parth/git/apache-storm-0.9.3/lib/chill-java-0.3.5.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.logging-0.2.3.jar:/home/parth/git/apache-storm-0.9.3/lib/servlet-api-2.5.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-core-1.1.5.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-codec-1.6.jar:/home/parth/git/apache-storm-0.9.3/lib/jetty-6.1.26.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-io-2.4.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-exec-1.1.jar:/home/parth/git/apache-storm-0.9.3/lib/math.numeric-tower-0.0.1.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-devel-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-servlet-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/hiccup-0.3.6.jar:/home/parth/git/apache-storm-0.9.3/conf:storm-local/supervisor/stormdist/wc_trident-1-1423872467/stormjar.jar
+2015-02-13T19:11:43.850-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.library.path=storm-local/supervisor/stormdist/wc_trident-1-1423872467/resources/Linux-amd64:storm-local/supervisor/stormdist/wc_trident-1-1423872467/resources:/usr/local/lib:/opt/local/lib:/usr/lib
+2015-02-13T19:11:43.850-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.io.tmpdir=/tmp
+2015-02-13T19:11:43.850-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.compiler=<NA>
+2015-02-13T19:11:43.850-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:os.name=Linux
+2015-02-13T19:11:43.850-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:os.arch=amd64
+2015-02-13T19:11:43.850-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:os.version=3.13.0-45-generic
+2015-02-13T19:11:43.850-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:user.name=parth
+2015-02-13T19:11:43.850-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:user.home=/home/parth
+2015-02-13T19:11:43.850-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:user.dir=/home/parth/git/apache-storm-0.9.3/examples/storm-starter
+2015-02-13T19:11:44.704-0500 b.s.d.worker [INFO] Launching worker for wc_trident-1-1423872467 on ab5a55f5-d5d0-4796-bed7-e5e3d1599629:6700 with id ed841016-0369-4766-a245-053bc38be002 and conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 5000, "topology.skip.missing.kryo.registrations" false, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 500, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "storm-local", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 4, "nimbus.host" "localhost", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2181, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" [6700 6701 6702 6703], "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "distributed", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+2015-02-13T19:11:44.723-0500 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2015-02-13T19:11:44.902-0500 o.a.s.c.f.i.CuratorFrameworkImpl [INFO] Starting
+2015-02-13T19:11:44.906-0500 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@6546662d
+2015-02-13T19:11:44.947-0500 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-13T19:11:44.959-0500 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-13T19:11:44.971-0500 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b85676620001b, negotiated timeout = 20000
+2015-02-13T19:11:44.974-0500 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: CONNECTED
+2015-02-13T19:11:44.977-0500 b.s.zookeeper [INFO] Zookeeper state update: :connected:none
+2015-02-13T19:11:46.012-0500 o.a.s.z.ClientCnxn [INFO] EventThread shut down
+2015-02-13T19:11:46.013-0500 o.a.s.z.ZooKeeper [INFO] Session: 0x14b85676620001b closed
+2015-02-13T19:11:46.019-0500 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2015-02-13T19:11:46.019-0500 o.a.s.c.f.i.CuratorFrameworkImpl [INFO] Starting
+2015-02-13T19:11:46.020-0500 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@6deff818
+2015-02-13T19:11:46.023-0500 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-13T19:11:46.024-0500 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-13T19:11:46.029-0500 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b85676620001c, negotiated timeout = 20000
+2015-02-13T19:11:46.030-0500 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: CONNECTED
+2015-02-13T19:11:46.138-0500 b.s.d.worker [INFO] Reading Assignments.
+2015-02-13T19:11:46.252-0500 b.s.m.TransportFactory [INFO] Storm peer transport plugin:backtype.storm.messaging.netty.Context
+2015-02-13T19:11:46.590-0500 o.a.s.c.r.ExponentialBackoffRetry [WARN] maxRetries too large (300). Pinning to 29
+2015-02-13T19:11:46.591-0500 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [100] the maxSleepTimeMs [1000] the maxRetries [300]
+2015-02-13T19:11:46.591-0500 b.s.m.n.Client [INFO] New Netty Client, connect to parth-VirtualBox, 6702, config: , buffer_size: 5242880
+2015-02-13T19:11:46.601-0500 b.s.m.n.Client [INFO] Reconnect started for Netty-Client-parth-VirtualBox/127.0.1.1:6702... [0]
+2015-02-13T19:11:46.605-0500 o.a.s.c.r.ExponentialBackoffRetry [WARN] maxRetries too large (300). Pinning to 29
+2015-02-13T19:11:46.605-0500 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [100] the maxSleepTimeMs [1000] the maxRetries [300]
+2015-02-13T19:11:46.605-0500 b.s.m.n.Client [INFO] New Netty Client, connect to parth-VirtualBox, 6701, config: , buffer_size: 5242880
+2015-02-13T19:11:46.612-0500 b.s.m.n.Client [INFO] Reconnect started for Netty-Client-parth-VirtualBox/127.0.1.1:6701... [0]
+2015-02-13T19:11:46.680-0500 b.s.m.n.Client [INFO] connection established to a remote host Netty-Client-parth-VirtualBox/127.0.1.1:6702, [id: 0x552338a7, /127.0.0.1:56056 => parth-VirtualBox/127.0.1.1:6702]
+2015-02-13T19:11:46.680-0500 b.s.m.n.Client [INFO] connection established to a remote host Netty-Client-parth-VirtualBox/127.0.1.1:6701, [id: 0xc48fb4bc, /127.0.0.1:59770 => parth-VirtualBox/127.0.1.1:6701]
+2015-02-13T19:11:47.216-0500 b.s.d.executor [INFO] Loading executor __acker:[4 4]
+2015-02-13T19:11:47.226-0500 b.s.d.executor [INFO] Loaded executor tasks __acker:[4 4]
+2015-02-13T19:11:47.240-0500 b.s.d.executor [INFO] Timeouts disabled for executor __acker:[4 4]
+2015-02-13T19:11:47.240-0500 b.s.d.executor [INFO] Finished loading executor __acker:[4 4]
+2015-02-13T19:11:47.283-0500 b.s.d.executor [INFO] Preparing bolt __acker:(4)
+2015-02-13T19:11:47.284-0500 b.s.d.executor [INFO] Loading executor b-1:[7 7]
+2015-02-13T19:11:47.306-0500 b.s.d.executor [INFO] Prepared bolt __acker:(4)
+2015-02-13T19:11:47.435-0500 b.s.d.executor [INFO] Loaded executor tasks b-1:[7 7]
+2015-02-13T19:11:47.441-0500 b.s.d.executor [INFO] Finished loading executor b-1:[7 7]
+2015-02-13T19:11:47.459-0500 b.s.d.executor [INFO] Preparing bolt b-1:(7)
+2015-02-13T19:11:47.475-0500 b.s.d.executor [INFO] Loading executor b-4:[10 10]
+2015-02-13T19:11:47.521-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[10 10]
+2015-02-13T19:11:47.522-0500 b.s.d.executor [INFO] Prepared bolt b-1:(7)
+2015-02-13T19:11:47.523-0500 b.s.d.executor [INFO] Finished loading executor b-4:[10 10]
+2015-02-13T19:11:47.531-0500 b.s.d.executor [INFO] Preparing bolt b-4:(10)
+2015-02-13T19:11:47.539-0500 b.s.d.executor [INFO] Loading executor b-4:[13 13]
+2015-02-13T19:11:47.551-0500 b.s.d.executor [INFO] Prepared bolt b-4:(10)
+2015-02-13T19:11:47.571-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[13 13]
+2015-02-13T19:11:47.574-0500 b.s.d.executor [INFO] Finished loading executor b-4:[13 13]
+2015-02-13T19:11:47.586-0500 b.s.d.executor [INFO] Preparing bolt b-4:(13)
+2015-02-13T19:11:47.590-0500 b.s.d.executor [INFO] Prepared bolt b-4:(13)
+2015-02-13T19:11:47.591-0500 b.s.d.executor [INFO] Loading executor b-4:[16 16]
+2015-02-13T19:11:47.618-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[16 16]
+2015-02-13T19:11:47.622-0500 b.s.d.executor [INFO] Finished loading executor b-4:[16 16]
+2015-02-13T19:11:47.637-0500 b.s.d.executor [INFO] Preparing bolt b-4:(16)
+2015-02-13T19:11:47.645-0500 b.s.d.executor [INFO] Prepared bolt b-4:(16)
+2015-02-13T19:11:47.645-0500 b.s.d.executor [INFO] Loading executor b-4:[19 19]
+2015-02-13T19:11:47.663-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[19 19]
+2015-02-13T19:11:47.665-0500 b.s.d.executor [INFO] Finished loading executor b-4:[19 19]
+2015-02-13T19:11:47.673-0500 b.s.d.executor [INFO] Preparing bolt b-4:(19)
+2015-02-13T19:11:47.677-0500 b.s.d.executor [INFO] Prepared bolt b-4:(19)
+2015-02-13T19:11:47.678-0500 b.s.d.executor [INFO] Loading executor b-4:[22 22]
+2015-02-13T19:11:47.690-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[22 22]
+2015-02-13T19:11:47.692-0500 b.s.d.executor [INFO] Finished loading executor b-4:[22 22]
+2015-02-13T19:11:47.701-0500 b.s.d.executor [INFO] Preparing bolt b-4:(22)
+2015-02-13T19:11:47.703-0500 b.s.d.executor [INFO] Loading executor b-4:[25 25]
+2015-02-13T19:11:47.704-0500 b.s.d.executor [INFO] Prepared bolt b-4:(22)
+2015-02-13T19:11:47.724-0500 b.s.d.executor [INFO] Loaded executor tasks b-4:[25 25]
+2015-02-13T19:11:47.735-0500 b.s.d.executor [INFO] Finished loading executor b-4:[25 25]
+2015-02-13T19:11:47.744-0500 b.s.d.executor [INFO] Preparing bolt b-4:(25)
+2015-02-13T19:11:47.753-0500 b.s.d.executor [INFO] Prepared bolt b-4:(25)
+2015-02-13T19:11:47.760-0500 b.s.d.executor [INFO] Loading executor spout1:[28 28]
+2015-02-13T19:11:47.764-0500 b.s.d.executor [INFO] Loaded executor tasks spout1:[28 28]
+2015-02-13T19:11:47.771-0500 b.s.d.executor [INFO] Finished loading executor spout1:[28 28]
+2015-02-13T19:11:47.779-0500 b.s.d.executor [INFO] Loading executor __system:[-1 -1]
+2015-02-13T19:11:47.780-0500 b.s.d.executor [INFO] Opening spout spout1:(28)
+2015-02-13T19:11:47.781-0500 b.s.d.executor [INFO] Loaded executor tasks __system:[-1 -1]
+2015-02-13T19:11:47.793-0500 b.s.d.executor [INFO] Finished loading executor __system:[-1 -1]
+2015-02-13T19:11:47.802-0500 b.s.d.executor [INFO] Preparing bolt __system:(-1)
+2015-02-13T19:11:47.811-0500 b.s.d.executor [INFO] Loading executor $mastercoord-bg0:[1 1]
+2015-02-13T19:11:47.838-0500 b.s.util [ERROR] Async loop died!
+java.lang.RuntimeException: No DRPC servers configured for topology
+	at backtype.storm.drpc.DRPCSpout.open(DRPCSpout.java:79) ~[storm-core-0.9.3.jar:0.9.3]
+	at storm.trident.spout.RichSpoutBatchTriggerer.open(RichSpoutBatchTriggerer.java:58) ~[storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.daemon.executor$fn__3373$fn__3388.invoke(executor.clj:522) ~[storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.util$async_loop$fn__464.invoke(util.clj:461) ~[storm-core-0.9.3.jar:0.9.3]
+	at clojure.lang.AFn.run(AFn.java:24) [clojure-1.5.1.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_76]
+2015-02-13T19:11:47.839-0500 b.s.d.executor [ERROR] 
+java.lang.RuntimeException: No DRPC servers configured for topology
+	at backtype.storm.drpc.DRPCSpout.open(DRPCSpout.java:79) ~[storm-core-0.9.3.jar:0.9.3]
+	at storm.trident.spout.RichSpoutBatchTriggerer.open(RichSpoutBatchTriggerer.java:58) ~[storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.daemon.executor$fn__3373$fn__3388.invoke(executor.clj:522) ~[storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.util$async_loop$fn__464.invoke(util.clj:461) ~[storm-core-0.9.3.jar:0.9.3]
+	at clojure.lang.AFn.run(AFn.java:24) [clojure-1.5.1.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_76]
+2015-02-13T19:11:47.859-0500 b.s.d.executor [INFO] Prepared bolt __system:(-1)
+2015-02-13T19:11:47.870-0500 b.s.d.executor [INFO] Loaded executor tasks $mastercoord-bg0:[1 1]
+2015-02-13T19:11:47.878-0500 b.s.d.executor [INFO] Finished loading executor $mastercoord-bg0:[1 1]
+2015-02-13T19:11:47.878-0500 b.s.d.worker [INFO] Launching receive-thread for ab5a55f5-d5d0-4796-bed7-e5e3d1599629:6700
+2015-02-13T19:11:47.884-0500 b.s.d.executor [INFO] Opening spout $mastercoord-bg0:(1)
+2015-02-13T19:11:47.900-0500 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2015-02-13T19:11:47.901-0500 o.a.s.c.f.i.CuratorFrameworkImpl [INFO] Starting
+2015-02-13T19:11:47.903-0500 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@333770f
+2015-02-13T19:11:47.907-0500 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-13T19:11:47.909-0500 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-13T19:11:47.915-0500 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b85676620001d, negotiated timeout = 20000
+2015-02-13T19:11:47.916-0500 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: CONNECTED
+2015-02-13T19:11:47.930-0500 b.s.m.n.Server [INFO] Create Netty Server Netty-server-localhost-6700, buffer_size: 5242880, maxWorkers: 1
+2015-02-13T19:11:47.963-0500 b.s.util [ERROR] Halting process: ("Worker died")
+java.lang.RuntimeException: ("Worker died")
+	at backtype.storm.util$exit_process_BANG_.doInvoke(util.clj:325) [storm-core-0.9.3.jar:0.9.3]
+	at clojure.lang.RestFn.invoke(RestFn.java:423) [clojure-1.5.1.jar:na]
+	at backtype.storm.daemon.worker$fn__3812$fn__3813.invoke(worker.clj:456) [storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.daemon.executor$mk_executor_data$fn__3274$fn__3275.invoke(executor.clj:240) [storm-core-0.9.3.jar:0.9.3]
+	at backtype.storm.util$async_loop$fn__464.invoke(util.clj:473) [storm-core-0.9.3.jar:0.9.3]
+	at clojure.lang.AFn.run(AFn.java:24) [clojure-1.5.1.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_76]
+2015-02-13T19:12:25.635-0500 o.a.s.z.ZooKeeper [INFO] Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2015-02-13T19:12:25.649-0500 o.a.s.z.ZooKeeper [INFO] Client environment:host.name=parth-VirtualBox
+2015-02-13T19:12:25.649-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.version=1.7.0_76
+2015-02-13T19:12:25.649-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.vendor=Oracle Corporation
+2015-02-13T19:12:25.649-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.home=/usr/lib/jvm/java-7-oracle/jre
+2015-02-13T19:12:25.649-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.class.path=/home/parth/git/apache-storm-0.9.3/lib/core.incubator-0.1.0.jar:/home/parth/git/apache-storm-0.9.3/lib/compojure-1.1.3.jar:/home/parth/git/apache-storm-0.9.3/lib/asm-4.0.jar:/home/parth/git/apache-storm-0.9.3/lib/jetty-util-6.1.26.jar:/home/parth/git/apache-storm-0.9.3/lib/log4j-over-slf4j-1.6.6.jar:/home/parth/git/apache-storm-0.9.3/lib/logback-core-1.0.13.jar:/home/parth/git/apache-storm-0.9.3/lib/logback-classic-1.0.13.jar:/home/parth/git/apache-storm-0.9.3/lib/reflectasm-1.07-shaded.jar:/home/parth/git/apache-storm-0.9.3/lib/clj-stacktrace-0.2.2.jar:/home/parth/git/apache-storm-0.9.3/lib/clj-time-0.4.1.jar:/home/parth/git/apache-storm-0.9.3/lib/jline-2.11.jar:/home/parth/git/apache-storm-0.9.3/lib/carbonite-1.4.0.jar:/home/parth/git/apache-storm-0.9.3/lib/objenesis-1.2.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-logging-1.1.3.jar:/home/parth/git/apache-storm-0.9.3/lib/json-simple-1.1.jar:/home/parth/git/apache-storm-0.9.3/lib/clout-1.0.1.jar:/home/parth/git/apache-storm-0.9.3/lib/disruptor-2.10.1.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.macro-0.1.0.jar:/home/parth/git/apache-storm-0.9.3/lib/storm-core-0.9.3.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-fileupload-1.2.1.jar:/home/parth/git/apache-storm-0.9.3/lib/joda-time-2.0.jar:/home/parth/git/apache-storm-0.9.3/lib/snakeyaml-1.11.jar:/home/parth/git/apache-storm-0.9.3/lib/slf4j-api-1.7.5.jar:/home/parth/git/apache-storm-0.9.3/lib/clojure-1.5.1.jar:/home/parth/git/apache-storm-0.9.3/lib/kryo-2.21.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-lang-2.5.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-jetty-adapter-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.cli-0.2.4.jar:/home/parth/git/apache-storm-0.9.3/lib/jgrapht-core-0.9.0.jar:/home/parth/git/apache-storm-0.9.3/lib/minlog-1.2.jar:/home/parth/git/apache-storm-0.9.3/lib/chill-java-0.3.5.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.logging-0.2.3.jar:/home/parth/git/apache-storm-0.9.3/lib/servlet-api-2.5.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-core-1.1.5.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-codec-1.6.jar:/home/parth/git/apache-storm-0.9.3/lib/jetty-6.1.26.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-io-2.4.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-exec-1.1.jar:/home/parth/git/apache-storm-0.9.3/lib/math.numeric-tower-0.0.1.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-devel-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-servlet-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/hiccup-0.3.6.jar:/home/parth/git/apache-storm-0.9.3/conf:storm-local/supervisor/stormdist/wc_trident-1-1423872467/stormjar.jar
+2015-02-13T19:12:25.649-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.library.path=storm-local/supervisor/stormdist/wc_trident-1-1423872467/resources/Linux-amd64:storm-local/supervisor/stormdist/wc_trident-1-1423872467/resources:/usr/local/lib:/opt/local/lib:/usr/lib
+2015-02-13T19:12:25.649-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.io.tmpdir=/tmp
+2015-02-13T19:12:25.649-0500 o.a.s.z.ZooKeeper [INFO] Client environment:java.compiler=<NA>
+2015-02-13T19:12:25.649-0500 o.a.s.z.ZooKeeper [INFO] Client environment:os.name=Linux
+2015-02-13T19:12:25.649-0500 o.a.s.z.ZooKeeper [INFO] Client environment:os.arch=amd64
+2015-02-13T19:12:25.649-0500 o.a.s.z.ZooKeeper [INFO] Client environment:os.version=3.13.0-45-generic
+2015-02-13T19:12:25.649-0500 o.a.s.z.ZooKeeper [INFO] Client environment:user.name=parth
+2015-02-13T19:12:25.649-0500 o.a.s.z.ZooKeeper [INFO] Client environment:user.home=/home/parth
+2015-02-13T19:12:25.650-0500 o.a.s.z.ZooKeeper [INFO] Client environment:user.dir=/home/parth/git/apache-storm-0.9.3/examples/storm-starter
+2015-02-13T19:12:25.683-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2015-02-13T19:12:25.683-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:host.name=parth-VirtualBox
+2015-02-13T19:12:25.683-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.version=1.7.0_76
+2015-02-13T19:12:25.683-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.vendor=Oracle Corporation
+2015-02-13T19:12:25.683-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.home=/usr/lib/jvm/java-7-oracle/jre
+2015-02-13T19:12:25.683-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.class.path=/home/parth/git/apache-storm-0.9.3/lib/core.incubator-0.1.0.jar:/home/parth/git/apache-storm-0.9.3/lib/compojure-1.1.3.jar:/home/parth/git/apache-storm-0.9.3/lib/asm-4.0.jar:/home/parth/git/apache-storm-0.9.3/lib/jetty-util-6.1.26.jar:/home/parth/git/apache-storm-0.9.3/lib/log4j-over-slf4j-1.6.6.jar:/home/parth/git/apache-storm-0.9.3/lib/logback-core-1.0.13.jar:/home/parth/git/apache-storm-0.9.3/lib/logback-classic-1.0.13.jar:/home/parth/git/apache-storm-0.9.3/lib/reflectasm-1.07-shaded.jar:/home/parth/git/apache-storm-0.9.3/lib/clj-stacktrace-0.2.2.jar:/home/parth/git/apache-storm-0.9.3/lib/clj-time-0.4.1.jar:/home/parth/git/apache-storm-0.9.3/lib/jline-2.11.jar:/home/parth/git/apache-storm-0.9.3/lib/carbonite-1.4.0.jar:/home/parth/git/apache-storm-0.9.3/lib/objenesis-1.2.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-logging-1.1.3.jar:/home/parth/git/apache-storm-0.9.3/lib/json-simple-1.1.jar:/home/parth/git/apache-storm-0.9.3/lib/clout-1.0.1.jar:/home/parth/git/apache-storm-0.9.3/lib/disruptor-2.10.1.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.macro-0.1.0.jar:/home/parth/git/apache-storm-0.9.3/lib/storm-core-0.9.3.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-fileupload-1.2.1.jar:/home/parth/git/apache-storm-0.9.3/lib/joda-time-2.0.jar:/home/parth/git/apache-storm-0.9.3/lib/snakeyaml-1.11.jar:/home/parth/git/apache-storm-0.9.3/lib/slf4j-api-1.7.5.jar:/home/parth/git/apache-storm-0.9.3/lib/clojure-1.5.1.jar:/home/parth/git/apache-storm-0.9.3/lib/kryo-2.21.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-lang-2.5.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-jetty-adapter-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.cli-0.2.4.jar:/home/parth/git/apache-storm-0.9.3/lib/jgrapht-core-0.9.0.jar:/home/parth/git/apache-storm-0.9.3/lib/minlog-1.2.jar:/home/parth/git/apache-storm-0.9.3/lib/chill-java-0.3.5.jar:/home/parth/git/apache-storm-0.9.3/lib/tools.logging-0.2.3.jar:/home/parth/git/apache-storm-0.9.3/lib/servlet-api-2.5.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-core-1.1.5.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-codec-1.6.jar:/home/parth/git/apache-storm-0.9.3/lib/jetty-6.1.26.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-io-2.4.jar:/home/parth/git/apache-storm-0.9.3/lib/commons-exec-1.1.jar:/home/parth/git/apache-storm-0.9.3/lib/math.numeric-tower-0.0.1.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-devel-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/ring-servlet-0.3.11.jar:/home/parth/git/apache-storm-0.9.3/lib/hiccup-0.3.6.jar:/home/parth/git/apache-storm-0.9.3/conf:storm-local/supervisor/stormdist/wc_trident-1-1423872467/stormjar.jar
+2015-02-13T19:12:25.689-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.library.path=storm-local/supervisor/stormdist/wc_trident-1-1423872467/resources/Linux-amd64:storm-local/supervisor/stormdist/wc_trident-1-1423872467/resources:/usr/local/lib:/opt/local/lib:/usr/lib
+2015-02-13T19:12:25.689-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.io.tmpdir=/tmp
+2015-02-13T19:12:25.689-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:java.compiler=<NA>
+2015-02-13T19:12:25.689-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:os.name=Linux
+2015-02-13T19:12:25.689-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:os.arch=amd64
+2015-02-13T19:12:25.689-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:os.version=3.13.0-45-generic
+2015-02-13T19:12:25.690-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:user.name=parth
+2015-02-13T19:12:25.690-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:user.home=/home/parth
+2015-02-13T19:12:25.690-0500 o.a.s.z.s.ZooKeeperServer [INFO] Server environment:user.dir=/home/parth/git/apache-storm-0.9.3/examples/storm-starter
+2015-02-13T19:12:26.671-0500 b.s.d.worker [INFO] Launching worker for wc_trident-1-1423872467 on ab5a55f5-d5d0-4796-bed7-e5e3d1599629:6700 with id a3ab13c2-c6de-4057-9db8-ddf95f4d3a5c and conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 5000, "topology.skip.missing.kryo.registrations" false, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 500, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "storm-local", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 4, "nimbus.host" "localhost", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2181, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" [6700 6701 6702 6703], "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "distributed", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+2015-02-13T19:12:26.683-0500 b.s.u.StormBoundedExponentialBackoffRetry [INFO] The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+2015-02-13T19:12:26.836-0500 o.a.s.c.f.i.CuratorFrameworkImpl [INFO] Starting
+2015-02-13T19:12:26.843-0500 o.a.s.z.ZooKeeper [INFO] Initiating client connection, connectString=localhost:2181 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@6546662d
+2015-02-13T19:12:26.884-0500 o.a.s.z.ClientCnxn [INFO] Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+2015-02-13T19:12:26.895-0500 o.a.s.z.ClientCnxn [INFO] Socket connection established to localhost/127.0.0.1:2181, initiating session
+2015-02-13T19:12:26.906-0500 o.a.s.z.ClientCnxn [INFO] Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x14b85676620001e, negotiated timeout = 20000
+2015-02-13T19:12:26.909-0500 o.a.s.c.f.s.ConnectionStateManager [INFO] State change: CONNECTED
+2015-02-13T19:12:26.912-0500 b.s.zookeeper [INFO] Zookeeper state update: :connected:none
