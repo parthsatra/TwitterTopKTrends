@@ -15,6 +15,8 @@ import storm.trident.TridentState;
 import storm.trident.TridentTopology;
 import storm.trident.operation.builtin.FilterNull;
 
+import java.util.Arrays;
+
 /**
  * Main class that creates the Storm Topology and DRPC Client to query for the topk hashtags from twitter stream.
  * Created by Parth Satra on 4/5/15.
@@ -38,8 +40,33 @@ public class TwitterTopKTopology {
         String accessToken = System.getenv("TWITTER_ACCESS_TOKEN");
         String accessTokenSecret = System.getenv("TWITTER_ACCESS_TOKEN_SECRET");
 
-        // Twitter topic of interest
-        String[] topicWords = args.clone();
+        // Handling the arguments passed as input to dynamically set the topk argument, window size and also filter the twitter api.
+        String[] topicWords = new String[0];
+        if(args != null && args.length > 0) {
+            boolean isTopk = false;
+            try {
+                topk = Integer.parseInt(args[0]);
+                if(topk <= 0) {
+                    System.out.println("The topK is invalid and hence running with default value");
+                    topk = 5;
+                }
+                isTopk = true;
+                windowSize = Integer.parseInt(args[1]);
+                if(windowSize <= 0 || topk > windowSize) {
+                    System.out.println("The input for window size is incorrect. Hence running with default values");
+                    topk = 5;
+                    windowSize = 1000;
+                }
+            } catch(NumberFormatException e) {
+                // Twitter topic of interest
+                if(isTopk) {
+                    topicWords = Arrays.copyOfRange(args, 1, args.length);
+                } else {
+                    topicWords = args.clone();
+                }
+            }
+            topicWords = Arrays.copyOfRange(args, 2, args.length);
+        }
 
         // Create Twitter's spout as provided by Apache as a part of open source license
         TwitterSampleSpout spoutTweets = new TwitterSampleSpout(consumerKey, consumerSecret,
