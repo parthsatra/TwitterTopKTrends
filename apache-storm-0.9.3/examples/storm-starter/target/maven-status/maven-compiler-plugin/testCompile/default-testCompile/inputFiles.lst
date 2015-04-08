@@ -1,9 +1,0 @@
-/home/parth/git/TwitterTopKTrends/apache-storm-0.9.3/examples/storm-starter/test/jvm/storm/starter/tools/RankableObjectWithFieldsTest.java
-/home/parth/git/TwitterTopKTrends/apache-storm-0.9.3/examples/storm-starter/test/jvm/storm/starter/tools/NthLastModifiedTimeTrackerTest.java
-/home/parth/git/TwitterTopKTrends/apache-storm-0.9.3/examples/storm-starter/test/jvm/storm/starter/tools/SlidingWindowCounterTest.java
-/home/parth/git/TwitterTopKTrends/apache-storm-0.9.3/examples/storm-starter/test/jvm/storm/starter/bolt/IntermediateRankingsBoltTest.java
-/home/parth/git/TwitterTopKTrends/apache-storm-0.9.3/examples/storm-starter/test/jvm/storm/starter/bolt/TotalRankingsBoltTest.java
-/home/parth/git/TwitterTopKTrends/apache-storm-0.9.3/examples/storm-starter/test/jvm/storm/starter/tools/SlotBasedCounterTest.java
-/home/parth/git/TwitterTopKTrends/apache-storm-0.9.3/examples/storm-starter/test/jvm/storm/starter/tools/MockTupleHelpers.java
-/home/parth/git/TwitterTopKTrends/apache-storm-0.9.3/examples/storm-starter/test/jvm/storm/starter/bolt/RollingCountBoltTest.java
-/home/parth/git/TwitterTopKTrends/apache-storm-0.9.3/examples/storm-starter/test/jvm/storm/starter/tools/RankingsTest.java
